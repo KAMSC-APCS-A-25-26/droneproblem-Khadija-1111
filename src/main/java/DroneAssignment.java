@@ -21,6 +21,7 @@ public class DroneAssignment {
         int batteryRounded = (int) battery;
         System.out.println("Display Altitude: " + displayAltitude);
         System.out.println("Battery Rounded: " + batteryRounded);
+        System.out.println();
 
         // TODO: Part 2 - Compound Assignment Operators
         // Altitude: Drone climbs 20 meters
@@ -31,7 +32,7 @@ public class DroneAssignment {
         // Display "Photos: " + photos
         // Display "Storage slots used: " + photos + " out of 4"
         displayAltitude += 20;
-        System.out.println("\nAfter climbing 20m: " + displayAltitude);
+        System.out.println("After climbing 20m: " + displayAltitude);
         batteryRounded -= 15;
         System.out.println("After battery drain: " + batteryRounded);
         photos += 3;
