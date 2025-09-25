@@ -41,6 +41,6 @@ public class DroneAssignment {
         System.out.println("After descending half: " + displayAltitude);
         photos %= 4;
         System.out.println("Photos: " + photos);
-        System.out.println("Storage slots used:  " + photos + " out of 4");
+        System.out.println("Storage slots used: " + photos + " out of 4");
     }
 }
