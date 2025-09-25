@@ -28,7 +28,7 @@ public class DroneDebug {
         displayHeight *= 0.6;
         surveillancePhotos %= 6;
         timeInt += 45;
-        
+
         // Part 3 - Mission report
         System.out.println("Flight Height Display:" + displayHeight);
         System.out.println("Fuel Level Rounded: " + fuelRounded);
